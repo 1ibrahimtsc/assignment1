@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  font-family: serif;
+}
+
+.text-primary {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #000;
+}
+
+.btn-primary {
+  border: 0;
+  padding: 18px 35px;
+  border-radius: 5px;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*---------------- header css -----------------*/
+header {
+  background: #fff8f3;
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  display: flex;
+  background-size: cover;
+  padding: 216px 230px;
+}
+
+header .header_content {
+  width: 33%;
+  position: relative;
+  right: 0;
+}
+
+header .title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76.25px;
+  margin-bottom: 40px;
+}
+
+header .descriptions {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400px;
+  margin-bottom: 50px;
+}
+
+.header .btn-primary {
+  background: #f15b22;
+  color: #fff;
+}
+
+/*---------------- main area css -----------------*/
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*---------------- myfailures section css ---------*/
+.myfailures {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.myfailures div {
+  width: 50%;
+}
+
+.myfailures .right {
+  padding-left: 70px;
+}
+
+.myfailures .title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.92px;
+  width: 288px;
+  margin-bottom: 15px;
+}
+
+.myfailures .description {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  width: 466px;
+  margin-bottom: 10px;
+}
+
+.myfailures ul {
+}
+
+.myfailures ul {
+}
+
+.myfailures ul li::before {
+  content: "\2714";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #120e43;
+  font-size: 20px;
+  font-family: "FontAwesome";
+  transition: 0.5s;
+}
+.myfailures ul li {
+  line-height: 26px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+/*---------------- myplan section css -------------*/
+.myplan {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.myplan .section_title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.myplan .myplan_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myplan .myplan_container .everyplan {
+}
+
+.myplan .myplan_container .everyplan h4 {
+  font-size: 30px;
+  line-height: 35.19px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.myplan .myplan_container .everyplan p {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/*---------------- positivemindset section css -----*/
+
+.positivemindset {
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  display: flex;
+  background-size: cover;
+  padding: 70px 0px;
+  margin-top: 100px;
+  border-radius: 15px;
+  background: linear-gradient(
+      to right,
+      rgba(253, 74, 4, 1),
+      rgba(253, 74, 4, 0.001)
+    ),
+    url("../images/watch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.positivemindset .positivemindset_inner {
+  width: 459px;
+}
+
+.positivemindset .positivemindset_inner .title {
+  font-size: 40px;
+  line-height: 46px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.positivemindset .positivemindset_inner .btn-primary {
+  background: #fff;
+  color: #f15b22;
+}
+
+/*---------------- others section css -------------*/
+
+/*---------------- footer css ----------------------*/
+
+footer {
+  background: #000;
+  color: #fff;
+  margin: 120px 0px;
+  padding: 130px 230px;
+}
+
+.footer_container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+footer h2 {
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+.footerleft {
+  padding-right: 100px;
+}
+
+footer p {
+  margin-bottom: 15px;
+}
+footer .description {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  width: 450px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+
+footer ul li {
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+.footerright {
+  padding: 0 100px;
+}
+
+.footerright .title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footerright form {
+}
+
+.footerright input[type="email"] {
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 5px;
+  background: #000;
+  min-width: 270px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footerright .btn {
+  padding: 18px 35px;
+  color: #f15b22;
+}
